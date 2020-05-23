@@ -32,6 +32,9 @@ include_once ("base.php");
               <li class="nav-item">
                 <a class="nav-link text-white" href="?do=post">文章管理</a>
               </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="?do=image">圖片管理</a>
+              </li>
               <?php
               if($_SESSION['user'] == "admin"){
                 ?>
